@@ -1,3 +1,4 @@
+
 // var typed = new Typed(".text", {
 //     strings: ["Programming" , "Cybersecurity" , "Web Development"],
 //     typeSpeed:100,

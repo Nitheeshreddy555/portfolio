@@ -165,7 +165,6 @@ body {
     left: 55%;
     bottom: 15%;
     margin-right: 5%;
-    margin-left: 10%;
     padding: 0;
     background-repeat: no-repeat;
     background-position: center center;
@@ -174,18 +173,11 @@ body {
     opacity: 0;
     animation: slideUP 1s ease forwards;
     animation-delay: 1s;
-
-    /* position: absolute;
-    top: 175px;
-    left: 873px;
-    z-index: -99;
-    max-width: 400px;
-    border-radius: 27px; */
 }
 
 .responsive {
-    width: 80%;
-    height: 50%;
+    width: 100%;
+    height: auto;
     border-top-left-radius: 251px;
     border-top-right-radius: 251px;
     border-bottom-left-radius: 251px;
@@ -207,33 +199,14 @@ body {
 }
 
 .about-img {
-    /* display: inline-block;
+    display: inline-block;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     padding-right: 10%;
     margin-top: 2.5%;
-    margin-top: 7.5%;
-     opacity: 1;  */
-
-
-     /* width: 70%;
-     height: fit-content;
-     max-width: 632px;
-     max-height: 538px;
-     margin-bottom: 20;
-     border-radius: 8px;
-     /* box-shadow: 0 0 5pc cyan, 0 0 5px cyan, 0 0 10px cyan; */
-     /* border: #0ef 5px solid; */ 
-
-     width: 70%;
-    height: fit-content;
-    max-width: 632px;
-    max-height: 538px;
-    margin-bottom: 20;
-    border-radius: 100px;
-    /* box-shadow: 0 0 5pc cyan, 0 0 5px cyan, 0 0 10px cyan; */
-    border: #0ef 5px solid;
+    /*margin-top: 7.5%;*/
+    opacity: 1;
 }
 
 .abt-res {
